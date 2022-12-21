@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19423EFB293A34010018E702 /* ParagraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19423EFA293A34010018E702 /* ParagraphView.swift */; };
+		19577C212938C7EE00EB113B /* LawBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19577C202938C7EE00EB113B /* LawBookModel.swift */; };
+		19577C232938C82C00EB113B /* LawBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19577C222938C82C00EB113B /* LawBookView.swift */; };
+		197315292942327A00C2FF3A /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197315282942327A00C2FF3A /* Storage.swift */; };
+		1973152B29423A9600C2FF3A /* SavedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973152A29423A9600C2FF3A /* SavedModel.swift */; };
+		1973152D2942413500C2FF3A /* ParagraphModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973152C2942413500C2FF3A /* ParagraphModel.swift */; };
+		198E01742935167400252272 /* germanlawsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198E01732935167400252272 /* germanlawsApp.swift */; };
+		198E01762935167400252272 /* LawApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198E01752935167400252272 /* LawApp.swift */; };
+		198E01782935167500252272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198E01772935167500252272 /* Assets.xcassets */; };
+		198E017B2935167500252272 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198E017A2935167500252272 /* Preview Assets.xcassets */; };
+		198E01832935174300252272 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198E01822935174300252272 /* HomeView.swift */; };
+		198E01852935174D00252272 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198E01842935174D00252272 /* SavedView.swift */; };
+		198E01872935175700252272 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198E01862935175700252272 /* InfoView.swift */; };
+		198E018A2935183200252272 /* LawAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198E01892935183200252272 /* LawAppModel.swift */; };
+		19BCB383293E62E600957956 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCB382293E62E600957956 /* Models.swift */; };
+		19ED1A5B294499FA0003DF28 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19ED1A5A294499FA0003DF28 /* Launch Screen.storyboard */; };
+		19FEF7D82936935600464BC3 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FEF7D72936935600464BC3 /* HomeModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19423EFA293A34010018E702 /* ParagraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagraphView.swift; sourceTree = "<group>"; };
+		19577C202938C7EE00EB113B /* LawBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawBookModel.swift; sourceTree = "<group>"; };
+		19577C222938C82C00EB113B /* LawBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawBookView.swift; sourceTree = "<group>"; };
+		197315282942327A00C2FF3A /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		1973152A29423A9600C2FF3A /* SavedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedModel.swift; sourceTree = "<group>"; };
+		1973152C2942413500C2FF3A /* ParagraphModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagraphModel.swift; sourceTree = "<group>"; };
+		198E01702935167400252272 /* Gesetze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gesetze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		198E01732935167400252272 /* germanlawsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = germanlawsApp.swift; sourceTree = "<group>"; };
+		198E01752935167400252272 /* LawApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawApp.swift; sourceTree = "<group>"; };
+		198E01772935167500252272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		198E017A2935167500252272 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		198E01822935174300252272 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		198E01842935174D00252272 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		198E01862935175700252272 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		198E01892935183200252272 /* LawAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawAppModel.swift; sourceTree = "<group>"; };
+		19BCB382293E62E600957956 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		19ED1A5A294499FA0003DF28 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		19FEF7D72936935600464BC3 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		198E016D2935167400252272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197315272942302900C2FF3A /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				19FEF7D72936935600464BC3 /* HomeModel.swift */,
+				19577C202938C7EE00EB113B /* LawBookModel.swift */,
+				198E01892935183200252272 /* LawAppModel.swift */,
+				197315282942327A00C2FF3A /* Storage.swift */,
+				1973152A29423A9600C2FF3A /* SavedModel.swift */,
+				1973152C2942413500C2FF3A /* ParagraphModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		198E01672935167400252272 = {
+			isa = PBXGroup;
+			children = (
+				198E01722935167400252272 /* germanlaws */,
+				198E01712935167400252272 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		198E01712935167400252272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				198E01702935167400252272 /* Gesetze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		198E01722935167400252272 /* germanlaws */ = {
+			isa = PBXGroup;
+			children = (
+				197315272942302900C2FF3A /* viewmodels */,
+				198E01882935181B00252272 /* models */,
+				198E01732935167400252272 /* germanlawsApp.swift */,
+				198E01752935167400252272 /* LawApp.swift */,
+				198E01812935171700252272 /* views */,
+				198E01772935167500252272 /* Assets.xcassets */,
+				198E01792935167500252272 /* Preview Content */,
+				19ED1A5A294499FA0003DF28 /* Launch Screen.storyboard */,
+			);
+			path = germanlaws;
+			sourceTree = "<group>";
+		};
+		198E01792935167500252272 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				198E017A2935167500252272 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		198E01812935171700252272 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				198E01822935174300252272 /* HomeView.swift */,
+				198E01842935174D00252272 /* SavedView.swift */,
+				198E01862935175700252272 /* InfoView.swift */,
+				19577C222938C82C00EB113B /* LawBookView.swift */,
+				19423EFA293A34010018E702 /* ParagraphView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		198E01882935181B00252272 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				19BCB382293E62E600957956 /* Models.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		198E016F2935167400252272 /* Gesetze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198E017E2935167500252272 /* Build configuration list for PBXNativeTarget "Gesetze" */;
+			buildPhases = (
+				198E016C2935167400252272 /* Sources */,
+				198E016D2935167400252272 /* Frameworks */,
+				198E016E2935167400252272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gesetze;
+			productName = germanlaws;
+			productReference = 198E01702935167400252272 /* Gesetze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		198E01682935167400252272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					198E016F2935167400252272 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 198E016B2935167400252272 /* Build configuration list for PBXProject "germanlaws" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 198E01672935167400252272;
+			productRefGroup = 198E01712935167400252272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				198E016F2935167400252272 /* Gesetze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		198E016E2935167400252272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19ED1A5B294499FA0003DF28 /* Launch Screen.storyboard in Resources */,
+				198E017B2935167500252272 /* Preview Assets.xcassets in Resources */,
+				198E01782935167500252272 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		198E016C2935167400252272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197315292942327A00C2FF3A /* Storage.swift in Sources */,
+				19BCB383293E62E600957956 /* Models.swift in Sources */,
+				198E01762935167400252272 /* LawApp.swift in Sources */,
+				198E01872935175700252272 /* InfoView.swift in Sources */,
+				198E01832935174300252272 /* HomeView.swift in Sources */,
+				19FEF7D82936935600464BC3 /* HomeModel.swift in Sources */,
+				198E01852935174D00252272 /* SavedView.swift in Sources */,
+				19577C212938C7EE00EB113B /* LawBookModel.swift in Sources */,
+				198E018A2935183200252272 /* LawAppModel.swift in Sources */,
+				19577C232938C82C00EB113B /* LawBookView.swift in Sources */,
+				1973152D2942413500C2FF3A /* ParagraphModel.swift in Sources */,
+				198E01742935167400252272 /* germanlawsApp.swift in Sources */,
+				1973152B29423A9600C2FF3A /* SavedModel.swift in Sources */,
+				19423EFB293A34010018E702 /* ParagraphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		198E017C2935167500252272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		198E017D2935167500252272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		198E017F2935167500252272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"germanlaws/Preview Content\"";
+				DEVELOPMENT_TEAM = VR2NZG99GZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Gesetze;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxgrohmann.germanlaws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		198E01802935167500252272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"germanlaws/Preview Content\"";
+				DEVELOPMENT_TEAM = VR2NZG99GZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Gesetze;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxgrohmann.germanlaws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		198E016B2935167400252272 /* Build configuration list for PBXProject "germanlaws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198E017C2935167500252272 /* Debug */,
+				198E017D2935167500252272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		198E017E2935167500252272 /* Build configuration list for PBXNativeTarget "Gesetze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198E017F2935167500252272 /* Debug */,
+				198E01802935167500252272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 198E01682935167400252272 /* Project object */;
+}
