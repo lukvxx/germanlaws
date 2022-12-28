@@ -16,11 +16,6 @@ class LawBookModel: ObservableObject {
     @Published var law = LawBookSpecific(results: [Article]())
     
     func fetchData(id: Int) {
-        /*
-        guard let url = URL(string: "https://api.rechtsinformationsportal.de/v1/laws/" + id + "?include=contents") else {
-            print("Error in guard LawBookModel")
-            return
-        }*/
         
         guard let url = URL(string: "https://de.openlegaldata.io/api/laws/?book_id=" + String(id) + "&limit=10000") else {
             print("Error in guard LawBookModel")

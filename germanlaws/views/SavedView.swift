@@ -28,7 +28,6 @@ struct SavedView: View {
                                 }
                                 .tint(.red)
                             }
-                        
                     }
                 }
             }

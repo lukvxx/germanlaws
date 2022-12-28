@@ -10,7 +10,6 @@ import Foundation
 
 class ParagraphModel {
     
-    
     func addParagraph(newParagraph: Article) {
         var paragraphs: [Article]
         if Storage.fileExists("savedLaws.json", in: .caches) {

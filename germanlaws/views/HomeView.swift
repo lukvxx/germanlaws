@@ -14,61 +14,55 @@ struct HomeView: View {
     
     @StateObject var viewModel = HomeModel()
     
+    @StateObject var savedLawBooks = SavedLawBooks()
+    
     @State private var searchText = ""
     
-    @State private var loadingTimedOut = false;
-
+    @State private var showLawBookSelector = false;
     
     var body: some View {
         NavigationStack() {
             HStack {
                 if lawBooks.count == 0 {
-                    if loadingTimedOut {
-                        Text("Kein Treffer gefunden.")
-                    } else {
-                        ProgressView().progressViewStyle(CircularProgressViewStyle())
-                            .task {
-                                await delayText()
-                            }
-                    }
+                    Text("Es wurden keine Gesetzbücher gespeichert.")
                 } else {
-                    List(lawBooks, id: \.id){ lawBook in
-                            NavigationLink(lawBook.title) {
-                                LawBookView(app: app, id: lawBook.id, title: lawBook.title)
+                    List(lawBooks, id: \.id){ lawbook in
+                            NavigationLink(lawbook.title) {
+                                LawBookView(app: app, id: lawbook.id, title: lawbook.title)
+                            }.swipeActions {
+                                Button("Entfernen") {
+                                    savedLawBooks.removeLawBook(l: lawbook)
+                                    savedLawBooks.getLawBooks()
+                                }
+                                .tint(.red)
                             }
-                        
-                    }.task {
-                        loadingTimedOut = false
-                    }.refreshable {
-                        viewModel.fetchData()
                     }
                 }
             }
             .navigationTitle("Gesetzbücher")
             .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always))
-            .onAppear {
-                viewModel.fetchData()
+            .onChange(of: showLawBookSelector) { newVar in
+                savedLawBooks.getLawBooks()
+            }.onAppear {
+                savedLawBooks.getLawBooks()
+            }.toolbar {
+                Button("Hinzufügen") {
+                    showLawBookSelector = true
+                }
+            }.sheet(isPresented: $showLawBookSelector) {
+                SelectLawBooksView(app: app)
             }
-
         }
     
     }
     
     var lawBooks: [LawBook] {
-        return viewModel.lawBooks.results.filter {
-            if ($0.latest && $0.title.count < 40) {
-                if (searchText == "") {
-                    return true
-                }
-                return $0.title.lowercased().contains(searchText.lowercased()) || $0.slug.lowercased().contains(searchText.lowercased())
+        return savedLawBooks.savedLawBooks.filter {
+            if (searchText == "") {
+                return true
             }
-            return false
+            return $0.title.lowercased().contains(searchText.lowercased()) || $0.slug.lowercased().contains(searchText.lowercased())
         }
-    }
-    
-    private func delayText() async {
-        try? await Task.sleep(nanoseconds: 2_500_000_000)
-        loadingTimedOut = true
     }
 
     init(app: LawAppModel) {
@@ -76,4 +70,3 @@ struct HomeView: View {
         app.setNotifications(key: "home", value: nil)
     }
 }
-

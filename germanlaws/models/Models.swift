@@ -8,11 +8,11 @@
 import SwiftUI
 
 
-struct LawBooks: Codable, Hashable{
+struct LawBooks: Codable, Hashable {
     var results: Array<LawBook>
 }
 
-struct LawBook: Codable, Hashable {
+struct LawBook: Codable, Hashable, Equatable {
     var id: Int
     var title: String
     var code: String

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19133FB229571A7E003DA03D /* SelectLawBooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19133FB129571A7E003DA03D /* SelectLawBooksView.swift */; };
 		19423EFB293A34010018E702 /* ParagraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19423EFA293A34010018E702 /* ParagraphView.swift */; };
 		19577C212938C7EE00EB113B /* LawBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19577C202938C7EE00EB113B /* LawBookModel.swift */; };
 		19577C232938C82C00EB113B /* LawBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19577C222938C82C00EB113B /* LawBookView.swift */; };
@@ -21,12 +22,14 @@
 		198E01852935174D00252272 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198E01842935174D00252272 /* SavedView.swift */; };
 		198E01872935175700252272 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198E01862935175700252272 /* InfoView.swift */; };
 		198E018A2935183200252272 /* LawAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198E01892935183200252272 /* LawAppModel.swift */; };
+		19943C53295C4FAB00C76B6B /* SavedLawBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19943C52295C4FAB00C76B6B /* SavedLawBooks.swift */; };
 		19BCB383293E62E600957956 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCB382293E62E600957956 /* Models.swift */; };
 		19ED1A5B294499FA0003DF28 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19ED1A5A294499FA0003DF28 /* Launch Screen.storyboard */; };
 		19FEF7D82936935600464BC3 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FEF7D72936935600464BC3 /* HomeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19133FB129571A7E003DA03D /* SelectLawBooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLawBooksView.swift; sourceTree = "<group>"; };
 		19423EFA293A34010018E702 /* ParagraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagraphView.swift; sourceTree = "<group>"; };
 		19577C202938C7EE00EB113B /* LawBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawBookModel.swift; sourceTree = "<group>"; };
 		19577C222938C82C00EB113B /* LawBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawBookView.swift; sourceTree = "<group>"; };
@@ -42,6 +45,7 @@
 		198E01842935174D00252272 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
 		198E01862935175700252272 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		198E01892935183200252272 /* LawAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawAppModel.swift; sourceTree = "<group>"; };
+		19943C52295C4FAB00C76B6B /* SavedLawBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLawBooks.swift; sourceTree = "<group>"; };
 		19BCB382293E62E600957956 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		19ED1A5A294499FA0003DF28 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		19FEF7D72936935600464BC3 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 				197315282942327A00C2FF3A /* Storage.swift */,
 				1973152A29423A9600C2FF3A /* SavedModel.swift */,
 				1973152C2942413500C2FF3A /* ParagraphModel.swift */,
+				19943C52295C4FAB00C76B6B /* SavedLawBooks.swift */,
 			);
 			path = viewmodels;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 				198E01862935175700252272 /* InfoView.swift */,
 				19577C222938C82C00EB113B /* LawBookView.swift */,
 				19423EFA293A34010018E702 /* ParagraphView.swift */,
+				19133FB129571A7E003DA03D /* SelectLawBooksView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -203,12 +209,14 @@
 			files = (
 				197315292942327A00C2FF3A /* Storage.swift in Sources */,
 				19BCB383293E62E600957956 /* Models.swift in Sources */,
+				19133FB229571A7E003DA03D /* SelectLawBooksView.swift in Sources */,
 				198E01762935167400252272 /* LawApp.swift in Sources */,
 				198E01872935175700252272 /* InfoView.swift in Sources */,
 				198E01832935174300252272 /* HomeView.swift in Sources */,
 				19FEF7D82936935600464BC3 /* HomeModel.swift in Sources */,
 				198E01852935174D00252272 /* SavedView.swift in Sources */,
 				19577C212938C7EE00EB113B /* LawBookModel.swift in Sources */,
+				19943C53295C4FAB00C76B6B /* SavedLawBooks.swift in Sources */,
 				198E018A2935183200252272 /* LawAppModel.swift in Sources */,
 				19577C232938C82C00EB113B /* LawBookView.swift in Sources */,
 				1973152D2942413500C2FF3A /* ParagraphModel.swift in Sources */,
@@ -354,6 +362,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,6 +395,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
